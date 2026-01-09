@@ -1,10 +1,8 @@
 name: chunqiubfa
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
-
+    - cron: '48 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,16 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: chunqiubfa
         env:
-          g057: ${{ secrets.g057 }}
+          gdruu6: ${{ secrets.gdruu6 }}
         run: |
-          echo $g057 | jq -r .uec32 | /bin/bash
-          echo $ivvh6366 | jq -r .z34 | /bin/bash
-          echo $ixjk0 | jq -r .ecrxa38094 | /bin/bash
-          echo $lc4 | jq -r .mofo7 | /bin/bash
-          echo $koig6 | jq -r .bvpoc9383 | /bin/bash
-          echo $k40582 | jq -r .dyg83 | /bin/bash
-          echo $xtfsw97 | jq -r .n521 | /bin/bash
-          echo $k707 | jq -r .vx12 | /bin/bash
-          echo $pybx4 | jq -r .w7739 | /bin/bash
-          echo $w4308 | jq -r .wkell8 | /bin/bash
+          echo $gdruu6 | jq -r .ygkp797 | /bin/bash
+          echo $wugh40 | jq -r .kehd24 | /bin/bash
+          echo $lmyv74 | jq -r .zerjz058 | /bin/bash
+          echo $ekfac798 | jq -r .yoxja9403 | /bin/bash
+          echo $vgd8474 | jq -r .dbdgp0003 | /bin/bash
+          echo $zsey94 | jq -r .mfis6 | /bin/bash
+          echo $ovqe65 | jq -r .g051 | /bin/bash
+          echo $v40 | jq -r .vo82 | /bin/bash
+          echo $o395 | jq -r .wdoo55 | /bin/bash
+          echo $qkjh12 | jq -r .c67925 | /bin/bash
+          echo $urh605 | jq -r .wgork92694 | /bin/bash
+          echo $pd55 | jq -r .k8 | /bin/bash
 
